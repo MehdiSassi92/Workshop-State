@@ -1,0 +1,50 @@
+.profile-card {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 2px -4px 10px 1px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+  }
+  
+  .profile-card > .info-container {
+    width: 70%;
+    margin: 20px;
+  }
+  
+ .profile-card h4 {
+    font-weight: 200;
+  } 
+  
+  .label {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(6, 134, 253, 0.493);
+  }
+  
+  .btnn{
+    margin-left: 45%;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background: rgba(32, 141, 218, 0.493);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 20px;
+  
+    transition: ease-in-out 0.3s;
+   
+  }
+  
+  .btnn:hover {
+    transform: translateY(-1px);
+    box-shadow: 4px 3px 10px 1px rgba(0, 0, 0, 0.2);
+    color: rgba(6, 134, 253, 0.493);
+    background: white;
+  }
+
+  
